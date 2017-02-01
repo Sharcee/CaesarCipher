@@ -1,4 +1,5 @@
 import string
+from string import maketrans
 
 def findCypher(word):
     '''
@@ -17,6 +18,19 @@ def prompt():
     key = raw_input("Please enter a keyword for the mixed cipher: ")
     return key
 
+def encrypt(msg, cypher):
+    alphabet = string.lowercase
+    translation = maketrans(alphabet, cypher)
+    return msg.translate(translation)
+
 if __name__ == '__main__':
     key = prompt()
-    print key
+    print(key)
+
+    cypher = findCypher(key)
+    print cypher
+
+    message = raw_input("Please enter a message you would like to encrypt: ")
+
+    encoded = encrypt(message, cypher)
+    print encoded
