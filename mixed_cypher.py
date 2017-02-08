@@ -7,7 +7,7 @@ def findCypher(word):
     remaining characters of the alphabet and return a string of characters. This
     is the cypher key
     '''
-    word = word + string.lowercase
+    word = word.lower() + string.lowercase
     cypher = ""
     for i in range(len(word)):
         if word[i] not in cypher:
@@ -19,16 +19,18 @@ def prompt():
     return key
 
 def encrypt(msg, cypher):
-    alphabet = string.lowercase
+    cypher = cypher + cypher.upper()
+    alphabet = string.letters
     translation = maketrans(alphabet, cypher)
     return msg.translate(translation)
 
 if __name__ == '__main__':
     key = prompt()
-    print(key)
+    # print(key)
 
+    print("Plaintext: " + string.ascii_lowercase )
     cypher = findCypher(key)
-    print cypher
+    print("Ciphertext: " + cypher )
 
     message = raw_input("Please enter a message you would like to encrypt: ")
 
