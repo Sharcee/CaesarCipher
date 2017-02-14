@@ -1,5 +1,10 @@
+'''
+Name: Simon Aizpurua
+Assignment: 02 - Cypher
+'''
 import string
 from string import maketrans
+
 
 def findCypher(word):
     '''

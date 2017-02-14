@@ -1,0 +1,138 @@
+*************************************************
+Calling function waste_time
+Arguments:
+ - one of type str
+ - 2 of type int
+ - 3 of type str
+Output:
+Wasting time.
+Execution Time: 5.00531 s
+Return Value: ('one', 2, '3') of type tuple
+*************************************************
+
+*************************************************
+Calling function gcd
+Arguments:
+ - 15 of type int
+ - 9 of type int
+Output:
+The GCD of 15 and 9 is 3
+Execution Time: 5e-05 s
+Return Value: 3 of type int
+*************************************************
+
+*************************************************
+Calling function waste_time
+Arguments:
+ - one of type str
+ - 2 of type int
+ - 3 of type str
+Output:
+Wasting time.
+Execution Time: 5.00525 s
+Return Value: ('one', 2, '3') of type tuple.
+*************************************************
+
+*************************************************
+Calling function gcd
+Arguments:
+ - 15 of type int
+ - 9 of type int
+Output:
+The GCD of 15 and 9 is 3
+Execution Time: 4e-05 s
+Return Value: 3 of type int.
+*************************************************
+
+*************************************************
+Calling function waste_time
+Arguments:
+ - one of type str
+ - 2 of type int
+ - 3 of type str
+Output:
+Wasting time.
+Execution Time: 5.00934 s
+Return Value: ('one', 2, '3') of type tuple.
+*************************************************
+
+*************************************************
+Calling function gcd
+Arguments:
+ - 15 of type int
+ - 9 of type int
+Output:
+The GCD of 15 and 9 is 3
+Execution Time: 2e-05 s
+Return Value: 3 of type int.
+*************************************************
+
+*************************************************
+Calling function waste_time
+Arguments:
+ - one of type str
+ - 2 of type int
+ - 3 of type str
+Output:
+Wasting time.
+Execution Time: 5.00541 s
+Return Value: ('one', 2, '3') of type tuple.
+*************************************************
+
+*************************************************
+Calling function gcd
+Arguments:
+ - 15 of type int
+ - 9 of type int
+Output:
+The GCD of 15 and 9 is 3
+Execution Time: 5e-05 s
+Return Value: 3 of type int.
+*************************************************
+
+*************************************************
+Calling function waste_time
+Arguments:
+ - one of type str
+ - 2 of type int
+ - 3 of type str
+Output:
+Wasting time.
+Execution Time: 5.00416 s
+Return Value: ('one', 2, '3') of type tuple.
+*************************************************
+
+*************************************************
+Calling function gcd
+Arguments:
+ - 15 of type int
+ - 9 of type int
+Output:
+The GCD of 15 and 9 is 3
+Execution Time: 4e-05 s
+Return Value: 3 of type int.
+*************************************************
+
+*************************************************
+Calling function waste_time
+Arguments:
+ - one of type str
+ - 2 of type int
+ - 3 of type str
+Output:
+Wasting time.
+Execution Time: 5.00541 s
+Return Value: ('one', 2, '3') of type tuple.
+*************************************************
+
+*************************************************
+Calling function gcd
+Arguments:
+ - 15 of type int
+ - 9 of type int
+Output:
+The GCD of 15 and 9 is 3
+Execution Time: 4e-05 s
+Return Value: 3 of type int.
+*************************************************
+
